@@ -1,5 +1,39 @@
-.name{
-    font-size: 150px;
-    font-style: italic;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+
+.sezione-bio{
+    font-size: 18px;
+    font-family: 'Poppins';
+}
+
+.professione{
+    font-size: 200%;
+    text-align: center;
+}
+
+.container-bio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding: 48px;
+    padding-bottom: calc(80px + 24px);
+    gap: 30px;
+    background-color: #F7F7FA;
+}
+
+
+.container-bio-foto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0px;
+    
+    gap: 30px;
+    background-color: #F7F7FA;
+}
